@@ -9,8 +9,8 @@ const Header = () => {
     const {user, onClose} = useTelegram()
 
     return (
-        <div className={'Header'}>
-            <Button onClick={onClose}>Close</Button>
+        <div className={'header'}>
+            <Button onClick={onClose}>Закрыть</Button>
             <span className={'username'}>
                 {user?.username}
             </span>
